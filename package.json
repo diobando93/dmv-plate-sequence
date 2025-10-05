@@ -1,0 +1,28 @@
+{
+  "name": "dd62bca4a10355aaf2233a69bd7d5df5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gist.github.com/dd62bca4a10355aaf2233a69bd7d5df5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gist.github.com/dd62bca4a10355aaf2233a69bd7d5df5"
+  },
+  "homepage": "https://gist.github.com/dd62bca4a10355aaf2233a69bd7d5df5",
+  "devDependencies": {
+    "@types/node": "^24.6.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
